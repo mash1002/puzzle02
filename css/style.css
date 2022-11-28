@@ -4,8 +4,15 @@
 }
 .header{
     height:70px;
-    background: #00CED1
 }
+
+.normal{
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: double 5px #4b8fe7;
+    text-align: center;
+}
+
 .side{
     float:left;
     width:300px;
