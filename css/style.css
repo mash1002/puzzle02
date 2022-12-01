@@ -9,9 +9,24 @@
 .normal{
     padding: 10px;
     font-weight: bold;
-    border-bottom: double 5px #4b8fe7;
     text-align: center;
 }
+
+.normal:before, .normal:after{
+    content: '';
+    position: absolute;
+    display: inline-block;
+    border-top: double 5px rgb(52, 156, 241);
+    border-bottom: double 5px rgb(52, 156, 241);
+}
+
+.normal:before {
+    left:0;
+}
+.normal:after {
+    right: 0;
+}
+  
 
 .side{
     float:left;
